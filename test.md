@@ -12,6 +12,14 @@
 ### 📈 Step 8: Create Dashboards and Alerts
 ### 🧪 Step 9: Learn and Practice Use Cases
 
+## 📌Introduction
+This project demonstrates the setup of a home lab environment for cybersecurity testing, including an attack machine (Kali Linux), a target machine (Windows 10 VM), and a logging system (Splunk) to monitor malicious activities. The project involves:
+- Setting up virtual machines
+- Installing and configuring Sysmon for log collection
+- Deploying malware using `msfvenom`
+- Monitoring attacks using Splunk
+
+
 ### 🖥️ Step 1: Hardware Specifications
 ### Minimum specs (for running 2–3 VMs):
 - CPU: 4 cores (i5/Ryzen 5 or better)
