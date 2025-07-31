@@ -14,12 +14,6 @@
 ### Minimum specs (for running 2–3 VMs):
 - CPU: 4 cores (i5/Ryzen 5 or better)
 - RAM: 16 GB (8 GB possible with care)
-
-  ## 📦 Installation
-```bash
-git clone https://github.com/yourusername/your-project.git
-cd your-project
-npm install
 - Storage: 256–500 GB SSD
 - OS: Windows/Linux/Mac (any)
 
