@@ -29,5 +29,115 @@ This project demonstrates the setup of a home lab environment for cybersecurity 
 - OS: Windows/Linux/Mac (any)
 
  ## Set-Up-Virtual-Machines
+ ✅ Step 1: Download VirtualBox
+🔗 Go to: https://www.virtualbox.org/wiki/Downloads
+
+- Download the VirtualBox platform package for your OS (Windows/macOS/Linux).
+- Install it using the default options.
+- Also download and install the Extension Pack (for USB 3.0 support, etc.).
+
+✅ Step 2: Download an ISO File
+You’ll need an operating system to install. Common choices:
+
+Kali Linux (for hacking/pen testing)
+➤ https://www.kali.org/get-kali/
+
+Ubuntu Desktop (for general Linux use)
+➤ https://ubuntu.com/download/desktop
+
+Windows 10/11 ISO (for SOC/Victim VM)
+➤ https://www.microsoft.com/software-download/windows10
+
+✅ Step 3: Create a New VM in VirtualBox
+Open VirtualBox
+
+Click "New"
+
+Name your VM (e.g., "Ubuntu SOC VM")
+
+Select Type = Linux or Windows, and Version (e.g., Ubuntu (64-bit), Windows 10)
+
+Click Next
+
+✅ Step 4: Allocate Resources
+Memory (RAM): Minimum 2 GB, recommended 4–8 GB
+
+Hard Disk:
+
+Choose Create a virtual hard disk now
+
+Select VDI (VirtualBox Disk Image)
+
+Choose Dynamically allocated
+
+Size: 25–50 GB
+
+✅ Step 5: Mount the ISO and Start the VM
+Select your new VM → Click Start
+
+VirtualBox will prompt you to select a start-up disk:
+
+Click the folder icon and select the ISO you downloaded (Ubuntu, Kali, Windows)
+
+Click Start
+
+✅ Step 6: Install the OS Inside the VM
+Follow the OS-specific installation steps:
+
+🔹 For Ubuntu/Kali:
+Choose language and keyboard layout
+
+Set up username and password
+
+Choose "Erase disk and install" (this only affects the virtual disk)
+
+Wait for installation, then reboot
+
+🔹 For Windows:
+Choose version (Home/Pro)
+
+Skip product key if you don’t have one
+
+Choose the drive to install
+
+Let it complete installation and reboot
+
+✅ Step 7: Install Guest Additions (Important!)
+Guest Additions improve performance and allow clipboard sharing, screen resizing, etc.
+
+Start the VM
+
+Click Devices → Insert Guest Additions CD image
+
+Run the installer inside the VM
+
+✅ Step 8: Configure VM Settings (Optional but Helpful)
+Click your VM → Settings:
+
+System → Processor: Allocate 2+ CPUs if available
+
+Display → Video Memory: Set to max (128 MB)
+
+Shared Clipboard / Drag’n’Drop: Enable (Host to Guest or Bidirectional)
+
+Network → Adapter 1: Use Bridged Adapter or NAT depending on whether you want the VM to be visible on your network
+
+✅ Step 9: Take Snapshots (Optional)
+Before making changes or tests:
+
+Go to Machine → Take Snapshot
+
+Name it (e.g., “Clean Ubuntu Install”)
+
+You can restore it later if something breaks
+
+✅ Step 10: Update and Secure Your VM
+Once the VM is running:
+
+Run system updates (e.g., sudo apt update && sudo apt upgrade on Ubuntu)
+
+Install any required tools or packages
+
+Set a strong password for the user account
 
 ![image]()
