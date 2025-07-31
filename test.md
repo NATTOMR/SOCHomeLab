@@ -2,8 +2,8 @@
 
 ## Table Contents
 1. [Introduction](#introduction)
-2. [Hardware Specifications](#Hardware Specifications)
-3. 
+2. [Hardware Specifications](#hardware-Specifications)
+3. [Set Up Virtual Machines](#Set-Up-Virtual-Machines)
 ### 🖥️ Step 1: Check Your Hardware
 ### 🧱 Step 2: Choose Your SIEM Platform
 ### 🔧 Step 3: Set Up Virtual Machines
@@ -21,11 +21,13 @@ This project demonstrates the setup of a home lab environment for cybersecurity 
 - Monitoring attacks using Splunk
 
 
-### 🔧Hardware Specifications
+## Hardware-Specifications
 - Minimum specs (for running 2–3 VMs):
 - CPU: 4 cores (i5/Ryzen 5 or better)
 - RAM: 16 GB (8 GB possible with care)
 - Storage: 256–500 GB SSD
 - OS: Windows/Linux/Mac (any)
+
+ ## Set-Up-Virtual-Machines
 
 ![image]()
