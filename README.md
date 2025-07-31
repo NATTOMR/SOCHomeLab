@@ -43,15 +43,15 @@ This project demonstrates the setup of a home lab environment for cybersecurity 
 - ![image](https://github.com/NATTOMR/SOCHomeLab/blob/main/kali.png)
 - Ubuntu Desktop (for general Linux use)
 ➤ https://ubuntu.com/download/desktop
-- - ![image](https://github.com/NATTOMR/SOCHomeLab/blob/main/ubuntu.png)
+ - ![image](https://github.com/NATTOMR/SOCHomeLab/blob/main/ubuntu.png)
 - Windows 10/11 ISO (for SOC/Victim VM)
 ➤ https://www.microsoft.com/software-download/windows10
-  - - ![image](https://github.com/NATTOMR/SOCHomeLab/blob/main/windows.png)
-    - - ![image]()
+- ![image](https://github.com/NATTOMR/SOCHomeLab/blob/main/windows.png)
 
 ✅ Step 3: Create a New VM in VirtualBox
 - Open VirtualBox
 - Click "New"
+- ![image](https://github.com/NATTOMR/SOCHomeLab/blob/main/Screenshot%202025-07-31%20174447.png)
 - Name your VM (e.g., "Ubuntu SOC VM")
 - Select Type = Linux or Windows, and Version (e.g., Ubuntu (64-bit), Windows 10)
 - Click Next
