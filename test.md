@@ -1,7 +1,7 @@
 ### SOC HOMELAB
 Table Contents
 
-##🖥️ Step 1: Check Your Hardware
+## 🖥️ Step 1: Check Your Hardware
 Minimum specs (for running 2–3 VMs):
 
 CPU: 4 cores (i5/Ryzen 5 or better)
