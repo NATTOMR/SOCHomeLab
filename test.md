@@ -1,6 +1,8 @@
 # SOC HOMELAB
 
 ## Table Contents
+1. [Introduction](#introduction)
+2. [Prerequisites](#prerequisites)
 ### 🖥️ Step 1: Check Your Hardware
 ### 🧱 Step 2: Choose Your SIEM Platform
 ### 🔧 Step 3: Set Up Virtual Machines
