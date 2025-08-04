@@ -103,3 +103,18 @@ Before making changes or tests:
 - Run system updates (e.g., sudo apt update && sudo apt upgrade on Ubuntu)
 - Install any required tools or packages
 - Set a strong password for the user account
+
+
+## ✅ Choose SIEM Platform
+- SIEM, which stands for Security Information and Event Management, is a cybersecurity technology that helps organisations detect, analyse, and respond to security threats. It works by collecting and analysing security data from various sources within an IT environment, such as endpoints, servers, applications, and firewalls. SIEMs combine two key functions: Security Information Management (SIM) and Security Event Management (SEM)
+
+✅ Data Collection:
+- SIEMs collect data from various sources, including logs, network traffic, and security tools. 
+✅ Event Correlation:
+- They analyse this data to identify patterns and relationships, potentially uncovering threats that individual security tools might miss. 
+✅ Real-time Monitoring:
+- SIEMs provide a centralised view of security events, enabling real-time monitoring and alerting. 
+✅ Incident Response:
+- They facilitate faster investigation and response to security incidents by providing context and insights. 
+✅ Compliance:
+- SIEMs help organisations meet regulatory requirements by providing audit trails and reporting capabilities. 
