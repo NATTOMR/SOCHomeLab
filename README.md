@@ -56,7 +56,6 @@ This project demonstrates the setup of a home lab environment for cybersecurity 
 
 ✅ Step 4: Allocate Resources
 Memory (RAM): Minimum 2 GB, recommended 4–8 GB
-
 Hard Disk:
 - Choose Create a virtual hard disk now
 - Select VDI (VirtualBox Disk Image)
@@ -104,17 +103,16 @@ Before making changes or tests:
 - Install any required tools or packages
 - Set a strong password for the user account
 
-
 ## ✅ Choose SIEM Platform
 - SIEM, which stands for Security Information and Event Management, is a cybersecurity technology that helps organisations detect, analyse, and respond to security threats. It works by collecting and analysing security data from various sources within an IT environment, such as endpoints, servers, applications, and firewalls. SIEMs combine two key functions: Security Information Management (SIM) and Security Event Management (SEM)
 
-✅ Data Collection:
+## ✅ Data Collection:
 - SIEMs collect data from various sources, including logs, network traffic, and security tools. 
-✅ Event Correlation:
+## ✅ Event Correlation:
 - They analyse this data to identify patterns and relationships, potentially uncovering threats that individual security tools might miss. 
-✅ Real-time Monitoring:
+## ✅ Real-time Monitoring:
 - SIEMs provide a centralised view of security events, enabling real-time monitoring and alerting. 
-✅ Incident Response:
+## ✅ Incident Response:
 - They facilitate faster investigation and response to security incidents by providing context and insights. 
-✅ Compliance:
+## ✅ Compliance:
 - SIEMs help organisations meet regulatory requirements by providing audit trails and reporting capabilities. 
