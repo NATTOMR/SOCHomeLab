@@ -35,18 +35,18 @@ This project demonstrates the setup of a home lab environment for cybersecurity 
 - Download the VirtualBox platform package for your OS (Windows/macOS/Linux).
 - Install it using the default options.
 - Also download and install the Extension Pack (for USB 3.0 support, etc.).
-- ![image](https://github.com/NATTOMR/SOCHomeLab/blob/main/Screenshot%202025-07-31%20173311.png)
+- ![image](https://github.com/NATTOMR/images/blob/main/extention.png)
 
 ## ✅ Step 2: Download an ISO File
 - Kali Linux (for hacking/pen testing)
 ➤ https://www.kali.org/get-kali/
-- ![image](https://github.com/NATTOMR/SOCHomeLab/blob/main/kali.png)
+- ![image](https://github.com/NATTOMR/images/blob/main/kali.png)
 - Ubuntu Desktop (for general Linux use)
 ➤ https://ubuntu.com/download/desktop
- - ![image](https://github.com/NATTOMR/SOCHomeLab/blob/main/ubuntu.png)
+ - ![image](https://github.com/NATTOMR/images/blob/main/ubuntu.png)
 - Windows 10/11 ISO (for SOC/Victim VM)
 ➤ https://www.microsoft.com/software-download/windows10
-- ![image](https://github.com/NATTOMR/SOCHomeLab/blob/main/windows.png)
+- ![image](https://github.com/NATTOMR/images/blob/main/windows.png)
 
 ✅ Step 3: Create a New VM in VirtualBox
 - Open VirtualBox
