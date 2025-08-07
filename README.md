@@ -124,10 +124,11 @@ This guide covers:
 - ✅ Elastic Stack Integration (for Dashboards)
 - ✅ Adding Agents (Linux/Windows) for Monitoring
 # 📌 Wazuh Server Setup
- - Open the Ubuntu machine in VM
--  Go to the Wazuh website https://documentation.wazuh.com/current/deployment-options/virtual-machine/virtual-machine.html
- - Deployment on Docker
- - Increase max_map_count on your Docker host:`sysctl -w vm.max_map_count=262144`
+  ## STEP
+1. Open the Ubuntu machine in VM
+2. Go to the Wazuh website https://documentation.wazuh.com/current/deployment-options/virtual-machine/virtual-machine.html
+3. Deployment on Docker
+4. Increase max_map_count on your Docker host:`sysctl -w vm.max_map_count=262144`
  - Update the vm.max_map_count setting in /etc/sysctl.conf to set this value permanently. To verify after rebooting, run “sysctl vm.max_map_count”.
  -  Note: If you don’t set the max_map_count on your host, the Wazuh indexer will NOT work properly.
  -  - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2016.41.00_5782d73e.jpg)
