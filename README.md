@@ -127,6 +127,10 @@ This guide covers:
  - Open the Ubuntu machine in VM
 -  Go to the Wazuh website https://documentation.wazuh.com/current/deployment-options/virtual-machine/virtual-machine.html
  - Deployment on Docker
+ - Increase max_map_count on your Docker host:`sysctl -w vm.max_map_count=262144`
+ - Update the vm.max_map_count setting in /etc/sysctl.conf to set this value permanently. To verify after rebooting, run “sysctl vm.max_map_count”.
+ -  Note: If you don’t set the max_map_count on your host, the Wazuh indexer will NOT work properly.
+ -  - ![image](https://github.com/NATTOMR/images/blob/main/extention.png)
 -  Wazuh  Docker deployment
  - Single-node Deployment`git clone https://github.com/wazuh/wazuh-docker.git -b v4.12.0`
   
