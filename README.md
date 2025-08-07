@@ -125,7 +125,7 @@ This guide covers:
 - ✅ Adding Agents (Linux/Windows) for Monitoring
 # 📌 Wazuh Server Setup
  - Open the Ubuntu machine in VM
--  Go to the Wazuh website`https://documentation.wazuh.com/current/deployment-options/virtual-machine/virtual-machine.html`
+-  Go to the Wazuh website https://documentation.wazuh.com/current/deployment-options/virtual-machine/virtual-machine.html
  - Deployment on Docker
 -  Wazuh  Docker deployment
  - Single-node Deployment`git clone https://github.com/wazuh/wazuh-docker.git -b v4.12.0`
