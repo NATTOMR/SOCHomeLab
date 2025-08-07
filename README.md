@@ -19,14 +19,14 @@ This project demonstrates the setup of a home lab environment for cybersecurity 
 - Monitoring attacks using Splunk
 
 
-## Hardware-Specifications
+## 📌 Hardware-Specifications
 - Minimum specs (for running 2–3 VMs):
 - CPU: 4 cores (i5/Ryzen 5 or better)
 - RAM: 16 GB (8 GB possible with care)
 - Storage: 256–500 GB SSD
 - OS: Windows/Linux/Mac
 
- ## Set-Up-Virtual-Machines
+ ## 📌 Set-Up-Virtual-Machines
  ✅ Step 1: Download VirtualBox
 🔗 Go to: https://www.virtualbox.org/wiki/Downloads
 
@@ -103,7 +103,7 @@ Before making changes or tests:
 - Install any required tools or packages
 - Set a strong password for the user account
 
-## ✅ Choose SIEM Platform
+## 📌 ✅ Choose SIEM Platform
 - SIEM, which stands for Security Information and Event Management, is a cybersecurity technology that helps organisations detect, analyse, and respond to security threats. It works by collecting and analysing security data from various sources within an IT environment, such as endpoints, servers, applications, and firewalls. SIEMs combine two key functions: Security Information Management (SIM) and Security Event Management (SEM)
 
 ### 🔹 Data Collection:
@@ -117,10 +117,16 @@ Before making changes or tests:
 ### 🔹 Compliance:
 - SIEMs help organisations meet regulatory requirements by providing audit trails and reporting capabilities.
 
-# ✅ Install-and-Configure-Wazuh-SIEM
+# 📌 Install-and-Configure-Wazuh-SIEM
 Wazuh is an open-source SIEM with HIDS (Host-based IDS), log analysis, file integrity monitoring (FIM), and vulnerability detection.
 This guide covers:
 - ✅ Wazuh Server Setup (recommended Ubuntu)
 - ✅ Elastic Stack Integration (for Dashboards)
 - ✅ Adding Agents (Linux/Windows) for Monitoring
-
+# 📌 Wazuh Server Setup
+ - Open the Ubuntu machine in VM
+-  Go to the Wazuh website`https://documentation.wazuh.com/current/deployment-options/virtual-machine/virtual-machine.html`
+ - Deployment on Docker
+-  Wazuh  Docker deployment
+ - Single-node Deployment`git clone https://github.com/wazuh/wazuh-docker.git -b v4.12.0`
+  
