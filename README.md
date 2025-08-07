@@ -124,19 +124,20 @@ This guide covers:
 - ✅ Elastic Stack Integration (for Dashboards)
 - ✅ Adding Agents (Linux/Windows) for Monitoring
 # 📌 Wazuh Server Setup
-  ## STEP
+  ## FIRST STEP
 1. Open the Ubuntu machine in VM
 2. Go to the Wazuh website https://documentation.wazuh.com/current/deployment-options/virtual-machine/virtual-machine.html
 3. Deployment on Docker
 4. Increase max_map_count on your Docker host:`sysctl -w vm.max_map_count=262144`
  - Update the vm.max_map_count setting in /etc/sysctl.conf to set this value permanently. To verify after rebooting, run “sysctl vm.max_map_count”.
+ - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2016.41.00_5782d73e.jpg)
  -  Note: If you don’t set the max_map_count on your host, the Wazuh indexer will NOT work properly.
- -  - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2016.41.00_5782d73e.jpg)
--  Wazuh  Docker deployment
+5. Wazuh  Docker deployment
   - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2016.41.00_975d4d78.jpg)
- - Single-node Deployment`git clone https://github.com/wazuh/wazuh-docker.git -b v4.12.0`
- - Check the Docker
+6. Single-node Deployment clone https://github.com/wazuh/wazuh-docker.git -b v4.12.0
+7. Check the Docker
  - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2016.41.00_55be01bf.jpg)
- - Check the status
+8. Check the status
  - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2016.48.56_87f72f46.jpg)
-  
+    ## SECOND STEP
+   
