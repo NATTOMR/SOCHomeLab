@@ -1,6 +1,6 @@
 # SOC HOMELAB
 
-## Table Contents
+## Table Content
 1. [Introduction](#introduction)
 2. [Hardware Specifications](#hardware-Specifications)
 3. [Set Up Virtual Machines](#Set-Up-Virtual-Machines)
@@ -24,7 +24,7 @@ This project demonstrates the setup of a home lab environment for cybersecurity 
 - CPU: 4 cores (i5/Ryzen 5 or better)
 - RAM: 16 GB (8 GB possible with care)
 - Storage: 256–500 GB SSD
-- OS: Windows/Linux/Mac (any)
+- OS: Windows/Linux/Mac
 
  ## Set-Up-Virtual-Machines
  ✅ Step 1: Download VirtualBox
@@ -120,7 +120,7 @@ Before making changes or tests:
 # ✅ Install-and-Configure-Wazuh-SIEM
 Wazuh is an open-source SIEM with HIDS (Host-based IDS), log analysis, file integrity monitoring (FIM), and vulnerability detection.
 This guide covers:
-✅ Wazuh Server Setup (Kali)
-✅ Elastic Stack Integration (for Dashboards)
-✅ Adding Agents (Linux/Windows) for Monitoring
+- ✅ Wazuh Server Setup (recommended Ubuntu)
+- ✅ Elastic Stack Integration (for Dashboards)
+- ✅ Adding Agents (Linux/Windows) for Monitoring
 
