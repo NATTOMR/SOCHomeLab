@@ -134,10 +134,17 @@ This guide covers:
  -  Note: If you don’t set the max_map_count on your host, the Wazuh indexer will NOT work properly.
 5. Wazuh  Docker deployment
   - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2016.41.00_975d4d78.jpg)
-6. Single-node Deployment clone https://github.com/wazuh/wazuh-docker.git -b v4.12.0
 7. Check the Docker
  - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2016.41.00_55be01bf.jpg)
 8. Check the status
  - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2016.48.56_87f72f46.jpg)
     ## SECOND STEP
+
+1. Install Wazuh on the Ubuntu machine
+2. Single-node Deployment clone git clone https://github.com/wazuh/wazuh-docker.git -b v4.12.0
+3. - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2016.48.56_87f72f46.jpg)
+   - - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2016.48.56_87f72f46.jpg)
+     - - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2016.48.56_87f72f46.jpg)
+       - - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2016.48.56_87f72f46.jpg)
+         - - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2016.48.56_87f72f46.jpg)
    
