@@ -142,9 +142,15 @@ This guide covers:
 
 1. Install Wazuh on the Ubuntu machine
 2. Single-node Deployment clone git clone https://github.com/wazuh/wazuh-docker.git -b v4.12.0
-3. - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2016.48.56_87f72f46.jpg)
-   - - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2016.48.56_87f72f46.jpg)
-     - - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2016.48.56_87f72f46.jpg)
-       - - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2016.48.56_87f72f46.jpg)
-         - - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2016.48.56_87f72f46.jpg)
+3. - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2017.25.04_d8482e2f.jpg)
+4. Use `ifconfig` to find the Wazuh  server IP
+ ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2017.25.05_6b63d1f7.jpg)
+5. Go to the search bar and type ` https://<wazuh server IP>`
+       - ![image](https://github.com/NATTOMR/images/blob/main/Screenshot%20from%202025-08-07%2017-40-49.png)
+         
+6. username: admin
+          password: SecretPassword
+         ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2017.25.05_291296ca.jpg)
+7. Wazuh Dashboard
+         - - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2017.25.05_e1dd123b.jpg)
    
