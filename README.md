@@ -130,7 +130,12 @@ This guide covers:
  - Increase max_map_count on your Docker host:`sysctl -w vm.max_map_count=262144`
  - Update the vm.max_map_count setting in /etc/sysctl.conf to set this value permanently. To verify after rebooting, run “sysctl vm.max_map_count”.
  -  Note: If you don’t set the max_map_count on your host, the Wazuh indexer will NOT work properly.
- -  - ![image](https://github.com/NATTOMR/images/blob/main/extention.png)
+ -  - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2016.41.00_5782d73e.jpg)
 -  Wazuh  Docker deployment
+  - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2016.41.00_975d4d78.jpg)
  - Single-node Deployment`git clone https://github.com/wazuh/wazuh-docker.git -b v4.12.0`
+ - Check the Docker
+ - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2016.41.00_55be01bf.jpg)
+ - Check the status
+ - ![image](https://github.com/NATTOMR/images/blob/main/WhatsApp%20Image%202025-08-07%20at%2016.48.56_87f72f46.jpg)
   
