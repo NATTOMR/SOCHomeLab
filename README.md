@@ -7,9 +7,6 @@
 4. [Choose SIEM Platform](#Choose-SIEM-Platform)
 5. [Install and Configure Wazuh SIEM](#Install-and-Configure-Wazuh-SIEM)
 6. [Connect Agents to Wazuh](#Connect-Agents-to-Wazuh)
-### 📊 Step 7: Monitor and Investigate
-### 📈 Step 8: Create Dashboards and Alerts
-### 🧪 Step 9: Learn and Practice Use Cases
 
 ## 📌Introduction
 This project demonstrates the setup of a home lab environment for cybersecurity testing, including an attack machine (Kali Linux), a target machine (Windows 10 VM), and a logging system (Splunk) to monitor malicious activities. The project involves:
